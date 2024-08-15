@@ -1,3 +1,8 @@
+Original is [here](https://github.com/ovanr/webFuzz/tree/v1.2.0/instrumentor).
+This is not meant as a release or be usable by anyone. It's a quick and dirty php instrumentor extracted from webfuzz and adjusted a bit to dump the code coverage to a log file, it was used for some fuzzing evaluation purposes for the Atropos paper, [see here](https://github.com/CISPA-SysSec/atropos-legacy). It's only released so the evaluation docker builds can access it from GitHub.
+
+Here is the original README:
+
 # PHP-INSTRUMENTOR
 
 Instrument PHP files using Node, Edge, Node-Edge (combo) or Path coverage policy.
